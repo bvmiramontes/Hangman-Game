@@ -8,6 +8,7 @@
         wins: 0,
         losses: 0,
         start: function() {
+          this.guessed=[];
           this.complete = false;
           this.word = words[Math.floor(Math.random() * words.length)];
           this.$right = document.getElementById('right');
@@ -19,8 +20,7 @@
           this.left=9;
           this.$remain.innerHTML=this.left;
           this.$wrong.innerHTML="";
-          this.wrong(letter)= 0;
-
+         
         },
         guess: function(letter) {
           if (this.left > 0 && this.complete != true) {
