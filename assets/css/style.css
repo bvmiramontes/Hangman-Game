@@ -1,0 +1,46 @@
+     body{
+    border: 30px purple ridge;
+    font-size: 20px;
+    background: #42275a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #734b6d, #42275a);
+    background: -o-linear-gradient(right, #734b6d, #42275a);
+    background: linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      margin: 0;
+      padding-bottom: 95px;
+    }
+  h2{
+    font-family: times;
+    font-size: 36px;
+    }
+ .container{
+    background: #42275a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-shadow: -3px 4px 4px black;
+    color: white;
+    margin-top: 50px; 
+    text-align: center;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+  #right {
+    margin: 0 auto;
+    letter-spacing: 10px;
+    }
+  #wins{
+    margin-right: 10px;
+    }
+  #losses{
+    margin-right: 10px;
+    }
+  #remain{
+    margin-top: 30px;
+  }
+  button{
+    border: 6px gray ridge;
+    color: white;
+    background-color: #4B6D73;
+   margin-top: 30px;
+   margin-right: 5px;
+   height: 50px;
+   width: 100px;
+    }
